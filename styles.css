@@ -23,11 +23,11 @@ span {
   0%,
   100% {
     color: yellow;
-    text-shadow: 0 0 2px rgb(248, 248, 237);
+    text-shadow: 0 0 2px rgb(117, 117, 114);
   }
   10%,
   90% {
-    color: white;
+    color: rgb(66, 64, 64);
   }
 }
 .container > span:nth-child(2) {
