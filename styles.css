@@ -8,8 +8,8 @@ body {
   justify-content: center;
   min-height: 100vh;
   width: 100%;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-color: rgb(37, 34, 34);
+  font-family: "Lato", sans-serif;
+  background-color: #262626;
   font-size: 60px;
 }
 span {
@@ -22,12 +22,13 @@ span {
 @keyframes glow {
   0%,
   100% {
-    color: yellow;
-    text-shadow: 0 0 2px rgb(117, 117, 114);
+    color: #fff900;
+    text-shadow: 0 0 30px #ff6c00;
   }
   10%,
   90% {
-    color: rgb(66, 64, 64);
+    color: #484848;
+    text-shadow: none;
   }
 }
 .container > span:nth-child(2) {
